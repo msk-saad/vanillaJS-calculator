@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="calc">
+
+  <div class="display">
+    <h1 id="display"></h1>
+  </div>
+
+  <p>
+    <button id="1" class="btn" onclick="
+  console.log(calculation += 1);
+    ">1</button>
+
+    <button id="2" class="btn" onclick="
+  console.log(calculation += 2)
+  ">2</button>
+
+    <button id="3" class="btn" onclick="
+  console.log(calculation += 3);
+  ">3</button>
+
+    <button id="+" class="operator" onclick="
+  console.log(calculation += ' + ');
+  ">+</button>
+  </p>
+
+
+  <p>
+    <button id="4" class="btn" onclick="
+  console.log(calculation += 4);
+    ">4</button>
+
+    <button id="5" class="btn" onclick="
+  console.log(calculation += 5)
+  ">5</button>
+
+    <button id="6" class="btn" onclick="
+  console.log(calculation += 6);
+  ">6</button>
+
+    <button id="-" class="operator" onclick="
+  console.log(calculation += ' - ');
+  ">-</button>
+
+  </p>
+
+  <p>
+    <button id="7" class="btn" onclick="
+  console.log(calculation += 7);
+    ">7</button>
+
+    <button id="8" class="btn" onclick="
+  console.log(calculation += 8)
+  ">8</button>
+
+    <button id="9" class="btn" onclick="
+  console.log(calculation += 9);
+  ">9</button>
+
+    <button id="*" class="operator" onclick="
+  console.log(calculation += ' * ');
+  ">*</button>
+
+  </p>
+
+  <p>
+
+    <button id="0" class="btn" onclick="
+  console.log(calculation += 0);
+  ">0</button>
+
+<button id="." class="btn" onclick="
+console.log(calculation += ' . ');
+">.</button>
+
+    <button id="=" class="operator" onclick="
+  console.log(eval(calculation));
+  updateValue(eval(calculation));
+  ">=</button>
+
+<button id="/" class="operator" onclick="
+console.log(calculation += ' / ');
+">/</button>
+
+  </p>
+
+  <p>
+    <button id="clear" class="clear-btn" onclick="
+    calculation = '';
+    console.log('Cleared.');
+      ">AC</button>
+  </p>
+</div>
+
+
+  <script src="app.js">
+    
+    
+  </script>
+
+</body>
+
+</html>
